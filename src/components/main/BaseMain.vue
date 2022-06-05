@@ -18,6 +18,7 @@ main {
     background-color: var(--quaternary-color);
     color: var(--primary-color);
     font-size: 1.5rem;
+    padding: 1.5625rem;
 }
 
 </style>

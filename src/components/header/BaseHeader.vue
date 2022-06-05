@@ -78,6 +78,7 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+
 @import '../../assets/style/mixins.scss';
 
 header {
@@ -95,12 +96,14 @@ header {
         text-decoration: none;
         color: black;
         text-transform: uppercase;
-        font-weight: 700;
+        font-weight: 900;
     }
 
     a.active {
         border-bottom: .500rem solid var(--secondary-color);
         color: var(--secondary-color);
+        padding-bottom: 3.5rem;
     }
 }
+
 </style>
