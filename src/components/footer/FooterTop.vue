@@ -78,7 +78,6 @@ export default {
     text-transform: uppercase;
     color: var(--primary-color);
   }
-
 }
 
 </style>

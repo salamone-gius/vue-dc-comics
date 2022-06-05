@@ -115,6 +115,7 @@ export default {
 
 .footer-middle {
   background-image: url(../../assets/img/footer-bg.jpg);
+  padding: 1.15rem;
 
   .container {
     @include flexCenter;
@@ -123,7 +124,8 @@ export default {
       display: flex;
 
       ul {
-        margin: 1rem 1.5rem;
+        margin: 1rem 0;
+        margin-right:  1.5rem;
       }
 
       p {
