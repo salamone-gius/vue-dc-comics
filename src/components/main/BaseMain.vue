@@ -1,6 +1,8 @@
 <template>
     <main>
-
+        <div class="container">
+            <p>Content goes here</p>
+        </div>
     </main>
 </template>
 
@@ -11,5 +13,11 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+
+main {
+    background-color: var(--quaternary-color);
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
 
 </style>
