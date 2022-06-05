@@ -1,20 +1,32 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <BaseHeader/>
+    <BaseMain/>
+    <FooterTop/>
+    <FooterMiddle/>
+    <FooterBottom/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BaseHeader from './components/header/BaseHeader.vue';
+import BaseMain from './components/main/BaseMain.vue';
+import FooterTop from './components/footer/FooterTop.vue';
+import FooterMiddle from './components/footer/FooterTop.vue';
+import FooterBottom from './components/footer/FooterTop.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BaseHeader,
+    BaseMain,
+    FooterTop,
+    FooterMiddle,
+    FooterBottom,
   }
 }
 </script>
 
 <style lang="scss">
-@import './assets/style/global.scss'
+@import './assets/style/global.scss';
 </style>
