@@ -12,8 +12,8 @@
 import BaseHeader from './components/header/BaseHeader.vue';
 import BaseMain from './components/main/BaseMain.vue';
 import FooterTop from './components/footer/FooterTop.vue';
-import FooterMiddle from './components/footer/FooterTop.vue';
-import FooterBottom from './components/footer/FooterTop.vue';
+import FooterMiddle from './components/footer/FooterMiddle.vue';
+import FooterBottom from './components/footer/FooterBottom.vue';
 
 export default {
   name: 'App',
