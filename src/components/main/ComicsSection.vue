@@ -119,6 +119,11 @@ export default {
     font-weight: bold;
 }
 
+.current-series {
+    position: relative;
+    top: -55px;
+}
+
 button.load-more {
     cursor: pointer;
     padding: 1rem 3.5rem;
@@ -134,10 +139,13 @@ button.load-more {
 }
 
 .comics-box {
-    padding: 2rem 0;
+    padding: 1rem 0;
 
-    ul {
+    ul.comics-list {
         list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
 </style>
