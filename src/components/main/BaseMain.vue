@@ -1,17 +1,19 @@
 <template>
     <main>
-        <div>
-            <JumboTron/>            
-        </div>
+        <JumboTron/>
+        <ComicsSection/>
     </main>
 </template>
 
 <script>
 import JumboTron from './JumboTron.vue'
+import ComicsSection from './ComicsSection.vue'
+
 export default {
     name: 'BaseMain',
     components: {
         JumboTron,
+        ComicsSection,
     }
 }
 </script>
