@@ -2,11 +2,35 @@
   <footer class="footer-top">
     <nav class="container">
       <ul>
-        <li v-for="(link, index) in links" :key="index">
-          <a :class="{active : link.current}" :href="link.url">
-            <!-- <img :src="link.src" :alt="link.text"> -->
-            {{link.text}}
-            </a>
+        <li>
+          <a>
+            <img src="../../assets/img/buy-comics-digital-comics.png" alt="Digital Comics">
+            <span>digital comics</span>
+          </a>
+        </li>
+        <li>
+          <a>
+            <img src="../../assets/img/buy-comics-merchandise.png" alt="DC Merchandise">
+            <span>dc merchandise</span>
+          </a>
+        </li>
+        <li>
+          <a>
+            <img src="../../assets/img/buy-comics-subscriptions.png" alt="Subscription">
+            <span>subscription</span>
+          </a>
+        </li>
+        <li>
+          <a>
+            <img src="../../assets/img/buy-comics-shop-locator.png" alt="Comic Shop Locator">
+            <span>comic shop locator</span>
+          </a>
+        </li>
+        <li>
+          <a>
+            <img src="../../assets/img/buy-dc-power-visa.svg" alt="DC Power Visa">
+            <span>dc power visa</span>
+          </a>
         </li>
       </ul>
     </nav>
@@ -16,42 +40,6 @@
 <script>
 export default {
   name: 'FooterTop',
-    data() {
-    return {
-      links: [
-        {
-          text: "digital comics",
-          url: "#",
-          current: false,
-          src: '../../assets/img/buy-comics-digital-comics.png',
-        },
-        {
-          text: "dc merchandise",
-          url: "#",
-          current: true,
-          src: '../../assets/img/buy-comics-merchandise.png',
-        },
-        {
-          text: "subscription",
-          url: "#",
-          current: false,
-          src: '../../assets/img/buy-comics-subscriptions.png',
-        },
-        {
-          text: "comic shop locator",
-          url: "#",
-          current: false,
-          src: '../../assets/img/buy-comics-shop-locator.png',
-        },
-        {
-          text: "dc power visa",
-          url: "#",
-          current: false,
-          src: '../../assets/img/buy-dc-power-visa.svg',
-        }
-      ]
-    }
-  }
 }
 </script>
 
@@ -77,6 +65,16 @@ export default {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+    }
+
+    img {
+      width: 2rem;
+      margin-right: .625rem;
+    }
   }
 }
 

@@ -115,6 +115,8 @@ export default {
 
 .footer-middle {
   background-image: url(../../assets/img/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 1.15rem;
 
   .container {
